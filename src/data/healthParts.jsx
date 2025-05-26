@@ -1,6 +1,6 @@
 import lungs from "../assets/animated-lungs.png";
 import bone from "../assets/candy-of-bone.png";
-export const healthParts = [
+export const healthparts = [
   {
     name: "Lungs",
     date: "Date: 26 Oct 2021",

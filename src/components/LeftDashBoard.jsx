@@ -2,7 +2,7 @@ import React from "react";
 import { FaAngleDown, FaArrowDown, FaArrowRight, FaSearchPlus } from "react-icons/fa";
 import Activity from "./Activity";
 import anatomy from "../assets/anotomy.png";
-import { healthParts } from "../data/healthparts";
+import { healthparts } from "../data/healthparts";
 
 const LeftDashBoard = () => {
   return (
@@ -24,7 +24,7 @@ const LeftDashBoard = () => {
         </div>
 
         <div className="cards-container">
-          {healthParts.map((part) => (
+          {healthparts.map((part) => (
             <div key={part.name} className="health-card">
               <div className="card-top">
                 <img src={part.icon} alt={part.name} className="card-icon" />
